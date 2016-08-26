@@ -1,0 +1,987 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>天猫</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!--[if IE 6]>
+    <script src="js/dd_belatedpng_0.0.8a.js"></script>
+    <script>
+        DD_belatedPNG.fix("*");
+    </script>
+    <![endif]-->
+    <script src="js/tianmao.js"></script>
+    <script>
+
+    </script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="wrap clear">
+            <div class="login fl"><p>喵，欢迎来天猫</p><p><a href="#">请登录</a></p><p><a href="#">免费注册</a></p></div>
+            <div class="my fr">
+                <ul class="my-ul">
+                    <li class=" my-li ico1">
+                        <a href="#">我的淘宝<i></i></a>
+                        <div class="my-div active">
+                            <p><a href="#">已买到的宝贝</a></p>
+                            <p><a href="#">已卖出的宝贝</a></p>
+                        </div>
+                    </li>
+                    <li class="my-li ico2"><a href="#"><em></em>我关注的品牌</a></li>
+                    <li class="my-li ico3"><a href="#"><em></em>购物车0件</a></li>
+                    <li class="my-li ico4">
+                        <a href="#">收藏夹<i></i></a>
+                        <div class="my-div active">
+                            <p><a href="#">收藏的宝贝</a></p>
+                            <p><a href="#">收藏的店铺</a></p>
+                        </div>
+                    </li>
+                    <li class="my-li ">|</li>
+                    <li class="my-li ico5"><a href="#"><em></em>手机版</a></li>
+                    <li class="my-li "><a href="#">淘宝网</a></li>
+                    <li class="my-li "><a href="#">企业采购</a></li>
+                    <li class="my-li ico6">
+                        <a href="#">商家支持<i></i></a>
+                        <div class="my-div active seller">
+                            <strong>商家：</strong>
+                            <p><a class="kg" href="#">商家中心</a><a href="#">商家入驻</a></p>
+                            <p><a class="kg" href="#">运营服务</a><a href="#">商家品控</a></p>
+                            <p><a class="kg" href="#">商家工具</a><a href="#">商家规则</a></p>
+                            <p><a class="kg" href="#">天猫智库</a><a href="#">喵言喵语</a></p>
+                            <p class="dd"></p>
+                            <strong>帮助：</strong>
+                            <p><a class="kg" href="#">帮助中心</a><a href="#"></a></p>
+                            <p class="dd"></p>
+                        </div>
+                    </li>
+                    <li class="my-li ico7">
+                        <p><em></em>网站导航<i></i></p>
+                        <div class="my-div active my-nav">
+                            <div class="my-nav-con my-con1">
+                                <h2>热点推荐<span>Hot</span></h2>
+                                <ul class="fl">
+                                    <li><a href="#">天猫超市</a></li>
+                                    <li><a href="#">喵鲜生</a></li>
+                                    <li><a href="#">科技新品</a></li>
+                                    <li><a href="#">女装新品</a></li>
+                                    <li><a href="#">酷玩街</a></li>
+                                    <li><a href="#">内衣新品</a></li>
+                                    <li><a href="#">试美妆</a></li>
+                                    <li><a href="#">运动新品</a></li>
+                                    <li><a href="#">时尚先生</a></li>
+                                    <li><a href="#">精明妈咪</a></li>
+                                    <li><a href="#">吃乐会</a></li>
+                                    <li><a href="#">企业采购</a></li>
+                                    <li><a href="#">会员积分</a></li>
+                                    <li><a href="#">天猫国际</a></li>
+                                </ul>
+                            </div>
+                            <div class="my-nav-con my-con2">
+                                <h2>行业市场<span>Market</span></h2>
+                                <ul class="fl">
+                                    <li><a href="#">美妆</a></li>
+                                    <li><a href="#">电器</a></li>
+                                    <li><a href="#">女装</a></li>
+                                    <li><a href="#">男装</a></li>
+                                    <li><a href="#">女鞋</a></li>
+                                    <li><a href="#">男鞋</a></li>
+                                    <li><a href="#">内衣</a></li>
+                                    <li><a href="#">箱包</a></li>
+                                    <li><a href="#">运动</a></li>
+                                    <li><a href="#">母婴</a></li>
+                                    <li><a href="#">家装</a></li>
+                                    <li><a href="#">医药</a></li>
+                                    <li><a href="#">食品</a></li>
+                                    <li><a href="#">配饰</a></li>
+                                    <li><a href="#">汽车</a></li>
+                                </ul>
+                            </div>
+                            <div class="my-nav-con my-con3">
+                                <h2>品牌风尚<span>Brand</span></h2>
+                                <ul class="fl">
+                                    <li><a href="#">尚天猫</a></li>
+                                    <li><a href="#">大牌街</a></li>
+                                    <li><a href="#">潮牌街</a></li>
+                                    <li><a href="#">天猫原创</a></li>
+                                    <li><a href="#">什么牌子好</a></li>
+                                </ul>
+                            </div>
+                            <div class="my-nav-con my-con4">
+                                <h2>服务指南<span>Help</span></h2>
+                                <ul class="fl">
+                                    <li><a href="#">帮助中心</a></li>
+                                    <li><a href="#">品质保障</a></li>
+                                    <li><a href="#">特色服务</a></li>
+                                    <li><a href="#">7天退换货</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="search">
+        <div class="wrap clear">
+            <div class="logo fl">
+                <img src="picture/tm-s.png">
+            </div>
+            <div class="search-con fl">
+                <input class="text" type="text" value="原装进口全世界" placeholder="原装进口全世界"><input class="btn" type="button" value="搜索">
+                <p><a href="#">t恤女</a><span>|</span><a href="#">电风扇</a><span>|</span><a href="#">大码女装</a><span>|</span><a href="#">凉鞋</a><span>|</span><a href="#">防晒霜</a><span>|</span><a href="#">伞</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="nav">
+        <div class="wrap">
+            <p><span>商品分类</span></p>
+            <ul class="nav-menu">
+                <li>
+                    <a href="#"><img src="picture/tm-chaoshi.png"><img src="picture/tm-chaoshi1.png"></a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#"><img src="picture/tm-guoji.png"><img src="picture/tm-guoji1.png"></a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">天猫会员</a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">品牌街</a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">电器城</a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">喵鲜生</a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">医药馆</a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">医药馆</a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">医药馆</a>
+                    <div class="hover-pic"></div>
+                </li>
+                <li>
+                    <a href="#">医药馆</a>
+                    <div class="hover-pic"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="menu">
+        <div class="wrap clear">
+            <div class="menu-list fl">
+                <ul>
+                    <li><a href="#"><img src="picture/menu-1a.png">女装 /内衣</a></li>
+                    <li><a href="#"><img src="picture/menu-2.png">男装 /运动户外</a></li>
+                    <li><a href="#"><img src="picture/menu-3.png">女鞋 /男鞋 /箱包</a></li>
+                    <li><a href="#"><img src="picture/menu-4.png">化妆品 /个人护理</a></li>
+                    <li><a href="#"><img src="picture/menu-5.png">腕表 /珠宝饰品 /眼镜</a></li>
+                    <li><a href="#"><img src="picture/menu-6.png">手机 /数码 /电脑办公</a></li>
+                    <li><a href="#"><img src="picture/menu-7.png">母婴玩具</a></li>
+                    <li><a href="#"><img src="picture/menu-8.png">零食 /进口食品 /茶酒</a></li>
+                    <li><a href="#"><img src="picture/menu-9.png">生鲜水果</a></li>
+                    <li><a href="#"><img src="picture/menu-10.png">大家电 /生活电器</a></li>
+                    <li><a href="#"><img src="picture/menu-11.png">家具建材</a></li>
+                    <li><a href="#"><img src="picture/menu-12.png">汽车 /配件 /用品</a></li>
+                    <li><a href="#"><img src="picture/menu-13.png">家纺 /家饰 /鲜花</a></li>
+                    <li><a href="#"><img src="picture/menu-14.png">医药保健</a></li>
+                    <li><a href="#"><img src="picture/menu-15.png">厨具 /收纳 /宠物</a></li>
+                    <li><a href="#"><img src="picture/menu-16.png">图书音像</a></li>
+                </ul>
+            </div>
+            <div class="menu-img fl">
+                <ul >
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+            </div>
+            <div class="menu-side">
+                <div class="menu-login">
+                    <p><img src="picture/menu-head.png"></p>
+                    <p>Hi～你好！</p>
+                    <p class="menu-btn"><a href="#">请登录</a></p>
+                    <p><a href="#">免费注册></a></p>
+                </div>
+                <div class="menu-service">
+                    <p>退货保障</p>
+                    <p>花呗分期</p>
+                    <p>急速退款</p>
+                    <p><a href="#">更多特权></a></p>
+                </div>
+                <div class="menu-act">推荐活动</div>
+                <div class="menu-ad">
+                    <p class="menu-ad-img"><a href="#"><img src="picture/menu-head.png"></a></p>
+                    <p><a href="#">绵柔卫生巾</a></p>
+                    <p><a href="#">850积分</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="wrap clear">
+            <div class="vip">
+                <div><p ></p><span>深圳地区专享</span><p></p></div>
+                <ul>
+                    <li><a href="#"><img src="picture/vip1.png"></a></li>
+                    <li><a href="#"><img src="picture/vip2.png"></a></li>
+                    <li><a href="#"><img src="picture/vip3.png"></a></li>
+                    <li><a href="#"><img src="picture/vip4.png"></a></li>
+                    <li class="act"><a href="#"><img src="picture/vip5.png"></a></li>
+                </ul>
+            </div>
+            <div class="hot">
+                <p class="title">热门品牌<span> HOT BRANDS</span></p>
+                <a class="hot-img" href="#"><img src="picture/hot-img.png"></a>
+                <ul class="hot-menu">
+                    <li>
+                        <a href="#"><img src="picture/hot1.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot2.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot3.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot4.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot5.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot6.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot7.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot8.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot9.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot10.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot11.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot12.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot13.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot14.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot15.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot16.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot17.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot18.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot19.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot10.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot21.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot22.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot23.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><img src="picture/hot24.png"></a>
+                        <div class="hot-c">
+                            <a href="#"><img src="picture/tm-taox.png"></a>
+                            <p>关注人数 86.1万</p>
+                            <a class="hot-c-p" href="#">点击进入</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="hot-side">
+                    <li>
+                        <a href="#">
+                            <img src="picture/hot-a1.png">
+                            <p><span class="hot-text1">夏季女士内裤特惠</span><span class="hot-text2">夏季女士内裤特惠</span></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/hot-a2.png">
+                            <p><span class="hot-text1">探路者清爽夏日</span><span class="hot-text2">低至69元起</span></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/hot-a3.png">
+                            <p><span class="hot-text1">荣耀热销手机特惠</span><span class="hot-text2">购机送百元好礼</span></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/hot-a4.png">
+                            <p><span class="hot-text1">百年老店囤鲜茶</span><span class="hot-text2">正宗西湖龙井</span></p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="trend">
+                <ul>
+                    <li>
+                        <p class="title">潮流前线</p>
+                        <div class="line">
+                            <h1>焕新</h1>
+                            <p>品牌精选新品</p>
+                            <a href="#"><img src="picture/tm-p2.png"></a>
+                        </div>
+                        <div>
+                            <h1>全球时尚</h1>
+                            <p>大牌精致时尚</p>
+                            <a href="#"><img src="picture/tm-p4.png"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="title">手机酷玩</p>
+                        <div class="line">
+                            <h1>天天搞机</h1>
+                            <p>选择下一步手机</p>
+                            <a href="#"><img src="picture/tm-p3.png"></a>
+                        </div>
+                        <div>
+                            <h1>酷玩街</h1>
+                            <p>潮炫创意智能</p>
+                            <a href="#"><img src="picture/tm-p9.png"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="title">品质生活</p>
+                        <div class="line">
+                            <h1>必抢</h1>
+                            <p>购物券翻倍减</p>
+                            <a href="#"><img src="picture/tm-p7.png"></a>
+                        </div>
+                        <div>
+                            <h1>喵先生</h1>
+                            <p>全进口好生鲜</p>
+                            <a href="#"><img src="picture/tm-p5.png"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="title">国际海购</p>
+                        <div class="line">
+                            <h1>识货</h1>
+                            <p>全球最新最热好货</p>
+                            <a href="#"><img src="picture/tm-p3.png"></a>
+                        </div>
+                        <div>
+                            <h1>海外直营</h1>
+                            <p>全场超级特卖</p>
+                            <a href="#"><img src="picture/tm-p10.png"></a>
+                        </div>
+                    </li>
+                    <li class="side">
+                        <p class="title">个性推荐</p>
+                        <div class="line">
+                            <h1>8090后</h1>
+                            <p>年轻潮品特价</p>
+                            <a href="#"><img src="picture/tm-p8.png"></a>
+                        </div>
+                        <div>
+                            <h1>魅力主妇</h1>
+                            <p>精品特GO</p>
+                            <a href="#"><img src="picture/tm-p1.png"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-ad"><img src="picture/da1.png"></div>
+            <div class="main-con">
+                <div class="main-con-title">
+                    <div class="fl"><div class="main-con-color"></div><p>亲子时光<span> KIDS & BABY</span></p></div>
+                    <div class="fr main-con-menu"><a href="#">童装</a><a href="#">玩具</a><a href="#">待产用品</a><a href="#">文教用品</a><a href="#">宝宝用品</a><a href="#">儿童床品</a><a href="#">奶粉</a><a href="#">童书</a><a href="#">纸尿裤</a></div>
+                </div>
+                <ul>
+                    <li class="main-con1">
+                        <a href="#">
+                            <img src="picture/main1.jpg">
+                            <div class="main-sc">
+                                <ul>
+                                </ul>
+                            </div>
+                        </a>
+                        <a class="box" href="#"><h2>拥抱阳光</h2><p>创意儿童服饰</p></a>
+                    </li>
+                    <li class="main-con2">
+                        <ul>
+                            <li><a href="#"><h3>小标签大秘密</h3><p>0-3岁宝宝健康穿搭</p></a><img src="picture/tm-con1.png"></li>
+                            <li><a href="#"><h3>品质童鞋</h3><p>健康学步第二期</p></a><img src="picture/tm-con2.png"></li>
+                            <li><a href="#"><h3>专注精品文胸</h3><p>无钢圈哺乳文胸</p></a><img src="picture/tm-con3.png"></li>
+                            <li><a href="#"><h3>天猫品质儿童床品</h3><p>助力宝宝优质睡眠</p></a><img src="picture/tm-con4.png"></li>
+                            <li><a href="#"><h3>大书包送好礼</h3><p>买就送文具套装</p></a><img src="picture/tm-con5.png"></li>
+                            <li><a href="#"><h3>欢乐暑期行动派</h3><p>这个夏天有你更精彩</p></a><img src="picture/tm-con6.png"></li>
+                        </ul>
+                    </li>
+                    <li class="main-con3">
+                        <ul>
+                            <li><a href="#"><h3>暑期学习班</h3><p>文具控</p></a><img src="picture/tm-con7.png"></li>
+                            <li><a href="#"><h3>舒适母婴囤货节</h3><p>孕产喂养用品一站购</p></a><img src="picture/tm-con8.png"></li>
+                            <li><a href="#"><h3>大肚皮日记第2期</h3><p>和孕妈一起挑内衣</p></a><img src="picture/tm-con9.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-con">
+                <div class="main-con-title">
+                    <div class="fl"><div class="main-con-color"></div><p>亲子时光<span> KIDS & BABY</span></p></div>
+                    <div class="fr main-con-menu"><a href="#">童装</a><a href="#">玩具</a><a href="#">待产用品</a><a href="#">文教用品</a><a href="#">宝宝用品</a><a href="#">儿童床品</a><a href="#">奶粉</a><a href="#">童书</a><a href="#">纸尿裤</a></div>
+                </div>
+                <ul>
+                    <li class="main-con1">
+                        <a href="#">
+                            <img src="picture/main2.jpg">
+                            <div class="main-sc">
+                                <ul>
+                                </ul>
+                            </div>
+                        </a>
+                        <a class="box" href="#"><h2>拥抱阳光</h2><p>创意儿童服饰</p></a>
+                    </li>
+                    <li class="main-con2">
+                        <ul>
+                            <li><a href="#"><h3>小标签大秘密</h3><p>0-3岁宝宝健康穿搭</p></a><img src="picture/tm-con1.png"></li>
+                            <li><a href="#"><h3>品质童鞋</h3><p>健康学步第二期</p></a><img src="picture/tm-con2.png"></li>
+                            <li><a href="#"><h3>专注精品文胸</h3><p>无钢圈哺乳文胸</p></a><img src="picture/tm-con3.png"></li>
+                            <li><a href="#"><h3>天猫品质儿童床品</h3><p>助力宝宝优质睡眠</p></a><img src="picture/tm-con4.png"></li>
+                            <li><a href="#"><h3>大书包送好礼</h3><p>买就送文具套装</p></a><img src="picture/tm-con5.png"></li>
+                            <li><a href="#"><h3>欢乐暑期行动派</h3><p>这个夏天有你更精彩</p></a><img src="picture/tm-con6.png"></li>
+                        </ul>
+                    </li>
+                    <li class="main-con3">
+                        <ul>
+                            <li><a href="#"><h3>暑期学习班</h3><p>文具控</p></a><img src="picture/tm-con7.png"></li>
+                            <li><a href="#"><h3>舒适母婴囤货节</h3><p>孕产喂养用品一站购</p></a><img src="picture/tm-con8.png"></li>
+                            <li><a href="#"><h3>大肚皮日记第2期</h3><p>和孕妈一起挑内衣</p></a><img src="picture/tm-con9.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-ad"><img src="picture/da1.png"></div>
+            <div class="main-con">
+                <div class="main-con-title">
+                    <div class="fl"><div class="main-con-color"></div><p>亲子时光<span> KIDS & BABY</span></p></div>
+                    <div class="fr main-con-menu"><a href="#">童装</a><a href="#">玩具</a><a href="#">待产用品</a><a href="#">文教用品</a><a href="#">宝宝用品</a><a href="#">儿童床品</a><a href="#">奶粉</a><a href="#">童书</a><a href="#">纸尿裤</a></div>
+                </div>
+                <ul>
+                    <li class="main-con1">
+                        <a href="#">
+                            <img src="picture/main3.jpg">
+                            <div class="main-sc">
+                                <ul>
+                                </ul>
+                            </div>
+                        </a>
+                        <a class="box" href="#"><h2>拥抱阳光</h2><p>创意儿童服饰</p></a>
+                    </li>
+                    <li class="main-con2">
+                        <ul>
+                            <li><a href="#"><h3>小标签大秘密</h3><p>0-3岁宝宝健康穿搭</p></a><img src="picture/tm-con1.png"></li>
+                            <li><a href="#"><h3>品质童鞋</h3><p>健康学步第二期</p></a><img src="picture/tm-con2.png"></li>
+                            <li><a href="#"><h3>专注精品文胸</h3><p>无钢圈哺乳文胸</p></a><img src="picture/tm-con3.png"></li>
+                            <li><a href="#"><h3>天猫品质儿童床品</h3><p>助力宝宝优质睡眠</p></a><img src="picture/tm-con4.png"></li>
+                            <li><a href="#"><h3>大书包送好礼</h3><p>买就送文具套装</p></a><img src="picture/tm-con5.png"></li>
+                            <li><a href="#"><h3>欢乐暑期行动派</h3><p>这个夏天有你更精彩</p></a><img src="picture/tm-con6.png"></li>
+                        </ul>
+                    </li>
+                    <li class="main-con3">
+                        <ul>
+                            <li><a href="#"><h3>暑期学习班</h3><p>文具控</p></a><img src="picture/tm-con7.png"></li>
+                            <li><a href="#"><h3>舒适母婴囤货节</h3><p>孕产喂养用品一站购</p></a><img src="picture/tm-con8.png"></li>
+                            <li><a href="#"><h3>大肚皮日记第2期</h3><p>和孕妈一起挑内衣</p></a><img src="picture/tm-con9.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-con">
+                <div class="main-con-title">
+                    <div class="fl"><div class="main-con-color"></div><p>亲子时光<span> KIDS & BABY</span></p></div>
+                    <div class="fr main-con-menu"><a href="#">童装</a><a href="#">玩具</a><a href="#">待产用品</a><a href="#">文教用品</a><a href="#">宝宝用品</a><a href="#">儿童床品</a><a href="#">奶粉</a><a href="#">童书</a><a href="#">纸尿裤</a></div>
+                </div>
+                <ul>
+                    <li class="main-con1">
+                        <a href="#">
+                            <img src="picture/main4.jpg">
+                            <div class="main-sc">
+                                <ul>
+                                </ul>
+                            </div>
+                        </a>
+                        <a class="box" href="#"><h2>拥抱阳光</h2><p>创意儿童服饰</p></a>
+                    </li>
+                    <li class="main-con2">
+                        <ul>
+                            <li><a href="#"><h3>小标签大秘密</h3><p>0-3岁宝宝健康穿搭</p></a><img src="picture/tm-con1.png"></li>
+                            <li><a href="#"><h3>品质童鞋</h3><p>健康学步第二期</p></a><img src="picture/tm-con2.png"></li>
+                            <li><a href="#"><h3>专注精品文胸</h3><p>无钢圈哺乳文胸</p></a><img src="picture/tm-con3.png"></li>
+                            <li><a href="#"><h3>天猫品质儿童床品</h3><p>助力宝宝优质睡眠</p></a><img src="picture/tm-con4.png"></li>
+                            <li><a href="#"><h3>大书包送好礼</h3><p>买就送文具套装</p></a><img src="picture/tm-con5.png"></li>
+                            <li><a href="#"><h3>欢乐暑期行动派</h3><p>这个夏天有你更精彩</p></a><img src="picture/tm-con6.png"></li>
+                        </ul>
+                    </li>
+                    <li class="main-con3">
+                        <ul>
+                            <li><a href="#"><h3>暑期学习班</h3><p>文具控</p></a><img src="picture/tm-con7.png"></li>
+                            <li><a href="#"><h3>舒适母婴囤货节</h3><p>孕产喂养用品一站购</p></a><img src="picture/tm-con8.png"></li>
+                            <li><a href="#"><h3>大肚皮日记第2期</h3><p>和孕妈一起挑内衣</p></a><img src="picture/tm-con9.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-ad"><img src="picture/da1.png"></div>
+            <div class="main-con">
+                <div class="main-con-title">
+                    <div class="fl"><div class="main-con-color"></div><p>亲子时光<span> KIDS & BABY</span></p></div>
+                    <div class="fr main-con-menu"><a href="#">童装</a><a href="#">玩具</a><a href="#">待产用品</a><a href="#">文教用品</a><a href="#">宝宝用品</a><a href="#">儿童床品</a><a href="#">奶粉</a><a href="#">童书</a><a href="#">纸尿裤</a></div>
+                </div>
+                <ul>
+                    <li class="main-con1">
+                        <a href="#">
+                            <img src="picture/main5.jpg">
+                            <div class="main-sc">
+                                <ul>
+                                </ul>
+                            </div>
+                        </a>
+                        <a class="box" href="#"><h2>拥抱阳光</h2><p>创意儿童服饰</p></a>
+                    </li>
+                    <li class="main-con2">
+                        <ul>
+                            <li><a href="#"><h3>小标签大秘密</h3><p>0-3岁宝宝健康穿搭</p></a><img src="picture/tm-con1.png"></li>
+                            <li><a href="#"><h3>品质童鞋</h3><p>健康学步第二期</p></a><img src="picture/tm-con2.png"></li>
+                            <li><a href="#"><h3>专注精品文胸</h3><p>无钢圈哺乳文胸</p></a><img src="picture/tm-con3.png"></li>
+                            <li><a href="#"><h3>天猫品质儿童床品</h3><p>助力宝宝优质睡眠</p></a><img src="picture/tm-con4.png"></li>
+                            <li><a href="#"><h3>大书包送好礼</h3><p>买就送文具套装</p></a><img src="picture/tm-con5.png"></li>
+                            <li><a href="#"><h3>欢乐暑期行动派</h3><p>这个夏天有你更精彩</p></a><img src="picture/tm-con6.png"></li>
+                        </ul>
+                    </li>
+                    <li class="main-con3">
+                        <ul>
+                            <li><a href="#"><h3>暑期学习班</h3><p>文具控</p></a><img src="picture/tm-con7.png"></li>
+                            <li><a href="#"><h3>舒适母婴囤货节</h3><p>孕产喂养用品一站购</p></a><img src="picture/tm-con8.png"></li>
+                            <li><a href="#"><h3>大肚皮日记第2期</h3><p>和孕妈一起挑内衣</p></a><img src="picture/tm-con9.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-con">
+                <div class="main-con-title">
+                    <div class="fl"><div class="main-con-color"></div><p>亲子时光<span> KIDS & BABY</span></p></div>
+                    <div class="fr main-con-menu"><a href="#">童装</a><a href="#">玩具</a><a href="#">待产用品</a><a href="#">文教用品</a><a href="#">宝宝用品</a><a href="#">儿童床品</a><a href="#">奶粉</a><a href="#">童书</a><a href="#">纸尿裤</a></div>
+                </div>
+                <ul>
+                    <li class="main-con1">
+                        <a href="#">
+                            <img src="picture/main6.jpg">
+                            <div class="main-sc">
+                                <ul>
+                                </ul>
+                            </div>
+                        </a>
+                        <a class="box" href="#"><h2>拥抱阳光</h2><p>创意儿童服饰</p></a>
+                    </li>
+                    <li class="main-con2">
+                        <ul>
+                            <li><a href="#"><h3>小标签大秘密</h3><p>0-3岁宝宝健康穿搭</p></a><img src="picture/tm-con1.png"></li>
+                            <li><a href="#"><h3>品质童鞋</h3><p>健康学步第二期</p></a><img src="picture/tm-con2.png"></li>
+                            <li><a href="#"><h3>专注精品文胸</h3><p>无钢圈哺乳文胸</p></a><img src="picture/tm-con3.png"></li>
+                            <li><a href="#"><h3>天猫品质儿童床品</h3><p>助力宝宝优质睡眠</p></a><img src="picture/tm-con4.png"></li>
+                            <li><a href="#"><h3>大书包送好礼</h3><p>买就送文具套装</p></a><img src="picture/tm-con5.png"></li>
+                            <li><a href="#"><h3>欢乐暑期行动派</h3><p>这个夏天有你更精彩</p></a><img src="picture/tm-con6.png"></li>
+                        </ul>
+                    </li>
+                    <li class="main-con3">
+                        <ul>
+                            <li><a href="#"><h3>暑期学习班</h3><p>文具控</p></a><img src="picture/tm-con7.png"></li>
+                            <li><a href="#"><h3>舒适母婴囤货节</h3><p>孕产喂养用品一站购</p></a><img src="picture/tm-con8.png"></li>
+                            <li><a href="#"><h3>大肚皮日记第2期</h3><p>和孕妈一起挑内衣</p></a><img src="picture/tm-con9.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-ad"><img src="picture/da1.png"></div>
+            <div class="shop">
+                <p class="title">品牌旗舰店<span> FLAGSHIP STORES</span></p>
+                <ul class="shop-menu">
+                    <li>
+                        <div class="abc">
+                            <p class="fl shop-menu-logo"><a href="#">LEXUS雷克萨斯官方旗舰店</a><span>1311粉丝</span></p>
+                            <p class="fr shop-menu-in"><a href="#">进店看看</a></p>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img shop-img3">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="abc">
+                            <p class="fl shop-menu-logo"><a href="#">LEXUS雷克萨斯官方旗舰店</a><span>1311粉丝</span></p>
+                            <p class="fr shop-menu-in"><a href="#">进店看看</a></p>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img shop-img3">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="abc">
+                            <p class="fl shop-menu-logo"><a href="#">LEXUS雷克萨斯官方旗舰店</a><span>1311粉丝</span></p>
+                            <p class="fr shop-menu-in"><a href="#">进店看看</a></p>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img shop-img3">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="abc">
+                            <p class="fl shop-menu-logo"><a href="#">LEXUS雷克萨斯官方旗舰店</a><span>1311粉丝</span></p>
+                            <p class="fr shop-menu-in"><a href="#">进店看看</a></p>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                        <div class="shop-img shop-img3">
+                            <a href="#"><img src="picture/shop1.png"></a>
+                            <a class="lk" href="#"><p>LEXUS雷克萨斯 NX200t 1:18 仿真车模 晶亮白、海洋蓝金属/...</p><strong> ￥950</strong></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-ad"><img src="picture/da1.png"></div>
+            <div class="like">
+                <div class="like-img"><i></i><span> 猜你喜欢 </span><i></i></div>
+                <ul class="like-con">
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="picture/like1.png">
+                            <p>帅贝特&quot;魔戒&quot;汽车助力球铜 操控球 方向盘助力器<strong>￥98.0</strong></p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="help">
+        <div class="wrap">
+            <div class="service">
+                <ul>
+                    <li><a href="#"><img src="picture/h1.png"></a><a class="ml" href="#"><strong>品质保障</strong><p>品质护航 购物无忧</p></a></li>
+                    <li class="line"></li>
+                    <li><a href="#"><img src="picture/h2.png"></a><a class="ml" href="#"><strong>七天无理由退货</strong><p>为您提供售后无忧保障</p></a></li>
+                    <li class="line"></li>
+                    <li><a href="#"><img src="picture/h3.png"></a><a class="ml" href="#"><strong>特色服务体验</strong><p>为您呈现不一样的服务</p></a></li>
+                    <li class="line"></li>
+                    <li><a href="#"><img src="picture/h4.png"></a><a class="ml" href="#"><strong>帮助中心</strong><p>您的购物指南</p></a></li>
+                </ul>
+            </div>
+            <div class="guide">
+                <ul>
+                    <li>
+                        <ul>
+                            <li><p>购物指南</p></li>
+                            <li><a href="#">免费注册</a></li>
+                            <li><a href="#">开通支付宝</a></li>
+                            <li><a href="#">支付宝充值</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><p>天猫保障</p></li>
+                            <li><a href="#">发票保障</a></li>
+                            <li><a href="#">售后规则</a></li>
+                            <li><a href="#">缺货赔付</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><p>支付方式</p></li>
+                            <li><a href="#">快捷支付</a></li>
+                            <li><a href="#">信用卡</a></li>
+                            <li><a href="#">余额宝</a></li>
+                            <li><a href="#">蚂蚁花吧</a></li>
+                            <li><a href="#">货到付款</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><p>商家服务</p></li>
+                            <li><a href="#">商家入住</a></li>
+                            <li><a href="#">商家中心</a></li>
+                            <li><a href="#">天猫智库</a></li>
+                            <li><a href="#">天猫规则</a></li>
+                            <li><a href="#">物流服务</a></li>
+                            <li><a href="#">喵言喵语</a></li>
+                            <li><a href="#">运营服务</a></li>
+                        </ul>
+                    </li>
+                    <li class="no-mr">
+                        <ul>
+                            <li><p>手机天猫</p></li>
+                            <li><a href="#"><img src="picture/er.png"></a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="wrap">
+            <ul>
+                <li class="f-a"><a href="#">关于天猫</a><a href="#">帮助中心</a><a href="#">开放平台</a><a href="#">诚聘英才</a><a href="#">联系我们</a><a href="#">网站合作</a><a href="#">法律声明</a><a href="#">知识产权</a><a href="#">廉正举报</a><a href="#">规则意见征集</a></li>
+                <li class="f-a"><a href="#">阿里巴巴集团</a><i>|</i><a href="#">淘宝网</a><i>|</i><a href="#">天猫</a><i>|</i><a href="#">聚划算</a><i>|</i><a href="#">全球速卖通</a><i>|</i><a href="#">阿里巴巴国际交易市场</a><i>|</i><a href="#">1688</a><i>|</i><a href="#">阿里妈妈</a><i>|</i><a href="#">阿里旅行·去啊</a><i>|</i><a href="#">阿里云计算</a><i>|</i><a href="#">YunOS</a><i>|</i><a href="#">阿里通信</a><i>|</i><a href="#">万网</a><i>|</i><a href="#">高德</a><i>|</i><a href="#">优视</a><i>|</i><a href="#">友盟</a><i>|</i><a href="#">虾米</a><i>|</i><a href="#">天天动听</a><i>|</i><a href="#">来往</a><i>|</i><a href="#">钉钉</a><i>|</i><a href="#">支付宝</a></li>
+                <li class="f-b">增值电信业务经营许可证：<a href="#">浙B2-20110446</a>网络文化经营许可证：<a href="#">浙网文[2015]0295-065号</a>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号<br>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</li>
+                <li class="f-c"><b>© 2003-2016 TMALL.COM 版权所有</b></li>
+                <li><a href="#"><img src="picture/footer1.jpg"></a><a href="#"><img src="picture/footer2.jpg"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
